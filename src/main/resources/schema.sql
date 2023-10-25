@@ -3,5 +3,5 @@ CREATE TABLE IF NOT EXISTS issues (
     title VARCHAR(256) NOT NULL,
     content VARCHAR(256) NOT NULL,
     period VARCHAR(256) NOT NULL,
-    importance VARCHAR(256) NOT NULL
+    importance CHAR(1) NOT NULL
 );
